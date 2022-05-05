@@ -1551,8 +1551,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 91d9e0c9-862b-4f86-9074-ebe4bfc5ae13)
     (property "Reference" "C5" (id 0) (at 136.271 73.8845 90))
-    (property "Value" "C_Polarized" (id 1) (at 136.271 76.6596 90))
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 140.97 79.0448 0)
+    (property "Value" "" (id 1) (at 136.271 76.6596 90))
+    (property "Footprint" "" (id 2) (at 140.97 79.0448 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 137.16 80.01 0)
@@ -1811,7 +1811,7 @@
       (reference "C4") (unit 1) (value "10u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/91d9e0c9-862b-4f86-9074-ebe4bfc5ae13"
-      (reference "C5") (unit 1) (value "C_Polarized") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
+      (reference "C5") (unit 1) (value "1000u/35V") (footprint "Capacitor_THT:CP_Radial_D13.0mm_P5.00mm")
     )
     (path "/9f22985d-999b-44f5-9bb3-64c9181b6668"
       (reference "C6") (unit 1) (value "C_Polarized") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")

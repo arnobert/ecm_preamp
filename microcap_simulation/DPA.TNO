@@ -1,16 +1,16 @@
 ********************************************************************************
-***                       Micro-Cap 12.2.0.4 (64 bit)                        ***
+***                       Micro-Cap 12.2.0.4 (32 bit)                        ***
 ***                                                                          ***
 ***                                                                          ***
 ***                        Transient Analysis of DPA                         ***
-***                           23.01.2022 18:05:28                            ***
+***                           05.05.2022 13:51:04                            ***
 ********************************************************************************
 Limits
 ======
 Maximum Run Time           100m
 Output Start Time (tstart) 0
 Maximum Time Step          0
-Number of Points           51000
+Number of Points           510000
 Temperature                Linear 27
 Retrace Runs               1
 Run Options                Normal
@@ -33,8 +33,8 @@ Temperature=27
 DC Operating Point Voltages
 ===========================
 Node         Voltage  Node         Voltage  Node         Voltage 
-1             0.000   2             2.642   3             7.661  
-4             1.067n  5            15.000   6             0.000  
+1             0.000   2             2.644   3            12.271  
+4             1.529n  5            18.000   6             0.000  
 7             0.000   X1.3          0.000   X1.4          0.000  
 
 
@@ -44,29 +44,29 @@ Instance:                J1
 Using model:         BF245C
 
 Capacitance Terms:
-CGS                  1.480p
-CGD                622.398f
+CGS                  1.479p
+CGD                507.564f
 
 Conductance Terms:
-GM                  42.858m
-GDS                 26.848u
+GM                  44.648m
+GDS                 24.783u
 
 Current Terms:
-ID                   1.468m
+ID                   1.469m
 
 Voltage Terms:
-VGS                 -2.642 
-VDS                  5.020 
-VGD                 -7.661 
+VGS                 -2.644 
+VDS                  9.627 
+VGD                -12.271 
 
 Power DC Terms:
-PD                   7.367m
+PD                  14.142m
 PS                   0.000 
 
 DC Pin Currents:
-Ig                 -10.675p
-Id                   1.468m
-Is                  -1.468m
+Ig                 -15.287p
+Id                   1.469m
+Is                  -1.469m
 
 Condition:
 State                   SAT
@@ -81,12 +81,12 @@ vgs                  0.000
 Operating Point for Devices of Type Resistor
 ============================================
 Instance:                 R1             R2             R3             R4
-V                    -2.642          1.067n        -7.339          0.000 
+V                    -2.644          1.529n        -5.729          0.000 
 Power DC Terms:
-PD                    3.878m     1.139E-020        10.771m         0.000 
+PD                    3.884m     2.337E-020         8.416m         0.000 
 
 DC Pin Currents:
-Ir                   -1.468m        10.675p        -1.468m         0.000 
+Ir                   -1.469m        15.287p        -1.469m         0.000 
 
 Device Variables:
 tc1                   0.000          0.000          0.000          0.000 
@@ -109,16 +109,16 @@ tc2                   0.000          0.000
 
 Operating Point for Devices of Type Capacitor
 =============================================
-Instance:                 C1
-V                    -7.661 
+Instance:                 C1             C2
+V                   -12.271         -2.644 
 Power DC Terms:
-PS                    0.000 
+PS                    0.000          0.000 
 
 DC Pin Currents:
-Ic                    0.000 
+Ic                    0.000          0.000 
 
 Device Variables:
-ic                    0.000 
+ic                    0.000          0.000 
 
 
 
@@ -149,11 +149,11 @@ ISource              0.000
 Operating Point for Devices of Type SPICE Source
 ================================================
 Instance:                V1             V2          X1.V1
-V                    0.000         15.000          0.000 
+V                    0.000         18.000          0.000 
 Power DC Terms:
-PG                   0.000         22.016m         0.000 
+PG                   0.000         26.443m         0.000 
 
 DC Pin Currents:
-ISource             10.675p        -1.468m         0.000 
+ISource             15.287p        -1.469m         0.000 
 
 

@@ -1,0 +1,450 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.4 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                   Harmonic Distortion Analysis of DPA                    ***
+***                           05.05.2022 13:58:26                            ***
+********************************************************************************
+Limits
+======
+Fundamental Frequency      List 1K
+Name of Input Source       V1
+Input Source Amplitude     Log 10m,1m,5
+Name of Source Resistor    None
+Name of Load Resistor      R4
+Noise Frequency Range      100K,1
+Temperature                Linear 27
+Max Simulation Cycles      50
+Steady State Tolerance     1u
+Time Step Ratio            1m
+Highest Harmonic in THD    7
+Number of Time Points      510
+Number of Frequency Points 51
+Run Options                Normal
+State Variables            Zero
+Operating Point            On
+Auto Scale Ranges          On
+Accumulate Plots           Off
+Periodic Steady State      On
+Ignore Expression Errors   Off
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     F=1K                      ***
+***                    VIN=1m                     ***
+***                  RLoad=2000                   ***
+***           Vnoise(RMS)=7.35316e-006            ***
+***              Vnoise=1.03989e-005              ***
+***        Noise Frequency Range=1 to 100K        ***
+*****************************************************
+
+Temperature=27 F=1K VIN=1m
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             2.644   3            12.271  
+4             1.529n  5            18.000   6             0.000  
+7             0.000   X1.3          0.000   X1.4          0.000  
+
+
+Operating Point for Devices of Type Jfet NJF
+============================================
+Instance:                J1
+Using model:         BF245C
+
+Capacitance Terms:
+CGS                  1.479p
+CGD                507.564f
+
+Conductance Terms:
+GM                  44.648m
+GDS                 24.783u
+
+Current Terms:
+ID                   1.469m
+
+Voltage Terms:
+VGS                 -2.644 
+VDS                  9.627 
+VGD                -12.271 
+
+Power DC Terms:
+PD                  14.142m
+PS                   0.000 
+
+DC Pin Currents:
+Ig                 -15.287p
+Id                   1.469m
+Is                  -1.469m
+
+Condition:
+State                   SAT
+
+Device Variables:
+area                 1.000 
+vds                  0.000 
+vgs                  0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 R1             R2             R3             R4
+V                    -2.644          1.529n        -5.729          0.000 
+Power DC Terms:
+PD                    3.884m     2.337E-020         8.416m         0.000 
+
+DC Pin Currents:
+Ir                   -1.469m        15.287p        -1.469m         0.000 
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+Instance:              X1.R1          X1.R2
+V                     0.000          0.000 
+Power DC Terms:
+PD                    0.000          0.000 
+
+DC Pin Currents:
+Ir                    0.000          0.000 
+
+Device Variables:
+tc1                   0.000          0.000 
+tc2                   0.000          0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                 C1             C2
+V                   -12.271         -2.644 
+Power DC Terms:
+PS                    0.000          0.000 
+
+DC Pin Currents:
+Ic                    0.000          0.000 
+
+Device Variables:
+ic                    0.000          0.000 
+
+
+
+Operating Point for Devices of Type Dependent Source
+====================================================
+Instance:             X1.E2
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type SPICE Poly
+==============================================
+Instance:             X1.F1
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V1             V2          X1.V1
+V                    0.000         18.000          0.000 
+Power DC Terms:
+PG                   0.000         26.443m         0.000 
+
+DC Pin Currents:
+ISource             15.287p        -1.469m         0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     F=1K                      ***
+***                    VIN=5m                     ***
+***                  RLoad=2000                   ***
+***           Vnoise(RMS)=7.35316e-006            ***
+***              Vnoise=1.03989e-005              ***
+***        Noise Frequency Range=1 to 100K        ***
+*****************************************************
+
+Temperature=27 F=1K VIN=5m
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             2.644   3            12.271  
+4             1.529n  5            18.000   6             0.000  
+7             0.000   X1.3          0.000   X1.4          0.000  
+
+
+Operating Point for Devices of Type Jfet NJF
+============================================
+Instance:                J1
+Using model:         BF245C
+
+Capacitance Terms:
+CGS                  1.479p
+CGD                507.564f
+
+Conductance Terms:
+GM                  44.648m
+GDS                 24.783u
+
+Current Terms:
+ID                   1.469m
+
+Voltage Terms:
+VGS                 -2.644 
+VDS                  9.627 
+VGD                -12.271 
+
+Power DC Terms:
+PD                  14.142m
+PS                   0.000 
+
+DC Pin Currents:
+Ig                 -15.287p
+Id                   1.469m
+Is                  -1.469m
+
+Condition:
+State                   SAT
+
+Device Variables:
+area                 1.000 
+vds                  0.000 
+vgs                  0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 R1             R2             R3             R4
+V                    -2.644          1.529n        -5.729          0.000 
+Power DC Terms:
+PD                    3.884m     2.337E-020         8.416m         0.000 
+
+DC Pin Currents:
+Ir                   -1.469m        15.287p        -1.469m         0.000 
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+Instance:              X1.R1          X1.R2
+V                     0.000          0.000 
+Power DC Terms:
+PD                    0.000          0.000 
+
+DC Pin Currents:
+Ir                    0.000          0.000 
+
+Device Variables:
+tc1                   0.000          0.000 
+tc2                   0.000          0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                 C1             C2
+V                   -12.271         -2.644 
+Power DC Terms:
+PS                    0.000          0.000 
+
+DC Pin Currents:
+Ic                    0.000          0.000 
+
+Device Variables:
+ic                    0.000          0.000 
+
+
+
+Operating Point for Devices of Type Dependent Source
+====================================================
+Instance:             X1.E2
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type SPICE Poly
+==============================================
+Instance:             X1.F1
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V1             V2          X1.V1
+V                    0.000         18.000          0.000 
+Power DC Terms:
+PG                   0.000         26.443m         0.000 
+
+DC Pin Currents:
+ISource             15.287p        -1.469m         0.000 
+
+
+
+*****************************************************
+***                Temperature=27                 ***
+***                     F=1K                      ***
+***                    VIN=10m                    ***
+***                  RLoad=2000                   ***
+***           Vnoise(RMS)=7.35316e-006            ***
+***              Vnoise=1.03989e-005              ***
+***        Noise Frequency Range=1 to 100K        ***
+*****************************************************
+
+Temperature=27 F=1K VIN=10m
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             0.000   2             2.644   3            12.271  
+4             1.529n  5            18.000   6             0.000  
+7             0.000   X1.3          0.000   X1.4          0.000  
+
+
+Operating Point for Devices of Type Jfet NJF
+============================================
+Instance:                J1
+Using model:         BF245C
+
+Capacitance Terms:
+CGS                  1.479p
+CGD                507.564f
+
+Conductance Terms:
+GM                  44.648m
+GDS                 24.783u
+
+Current Terms:
+ID                   1.469m
+
+Voltage Terms:
+VGS                 -2.644 
+VDS                  9.627 
+VGD                -12.271 
+
+Power DC Terms:
+PD                  14.142m
+PS                   0.000 
+
+DC Pin Currents:
+Ig                 -15.287p
+Id                   1.469m
+Is                  -1.469m
+
+Condition:
+State                   SAT
+
+Device Variables:
+area                 1.000 
+vds                  0.000 
+vgs                  0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 R1             R2             R3             R4
+V                    -2.644          1.529n        -5.729          0.000 
+Power DC Terms:
+PD                    3.884m     2.337E-020         8.416m         0.000 
+
+DC Pin Currents:
+Ir                   -1.469m        15.287p        -1.469m         0.000 
+
+Device Variables:
+tc1                   0.000          0.000          0.000          0.000 
+tc2                   0.000          0.000          0.000          0.000 
+
+
+Instance:              X1.R1          X1.R2
+V                     0.000          0.000 
+Power DC Terms:
+PD                    0.000          0.000 
+
+DC Pin Currents:
+Ir                    0.000          0.000 
+
+Device Variables:
+tc1                   0.000          0.000 
+tc2                   0.000          0.000 
+
+
+
+Operating Point for Devices of Type Capacitor
+=============================================
+Instance:                 C1             C2
+V                   -12.271         -2.644 
+Power DC Terms:
+PS                    0.000          0.000 
+
+DC Pin Currents:
+Ic                    0.000          0.000 
+
+Device Variables:
+ic                    0.000          0.000 
+
+
+
+Operating Point for Devices of Type Dependent Source
+====================================================
+Instance:             X1.E2
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type SPICE Poly
+==============================================
+Instance:             X1.F1
+V                    0.000 
+Power DC Terms:
+PG                   0.000 
+
+DC Pin Currents:
+ISource              0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V1             V2          X1.V1
+V                    0.000         18.000          0.000 
+Power DC Terms:
+PG                   0.000         26.443m         0.000 
+
+DC Pin Currents:
+ISource             15.287p        -1.469m         0.000 
+
+
